@@ -25,7 +25,7 @@ class Cliente2
     for(;;)
       try
       {
-    	  conexion = new Socket("localhost",50000);
+    	  conexion = new Socket("13.66.37.106",50000);
           break;
       }
       catch (Exception e)
